@@ -1,10 +1,6 @@
 ﻿start-process 'https://linkedin.com/' -WindowStyle Maximized
-Start-Process 'https://github.com/devinbell/Projects'
-Start-Process 'https://alh.learnondemand.net/User/Login?ReturnUrl=%2f' 
-Start-Process 'https://www.clearancejobs.com/dashboard/your-profile' 
-Start-Process 'https://www.skillpipe.com/#/bookshelf/books'
-Start-Process 'https://msftmssa-my.sharepoint.com/' 
-Start-Process 'https://huntr.co/track/boards/612674a6b3c6fa0028cbbfba/board' 
+Start-Process 'https://www.outlook.com'
+Start-Process 'https://teams.microsoft.com/_#/conversations/05-LOE%201.3%20C%20and%20S?threadId=19:9c3f8422498340d9adf4bb32a4a09aa6@thread.skype&ctx=channel'
 Start-Process -File "$($env:USERProfile)\AppData\Local\Microsoft\Teams\Update.exe" -ArgumentList '--processStart "Teams.exe"' -WindowStyle Maximized
 invoke-item -Path "C:\Program Files\Microsoft Office\root\Office16\OUTLOOK.EXE" 
 
